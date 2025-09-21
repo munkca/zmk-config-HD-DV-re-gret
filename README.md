@@ -1,6 +1,8 @@
-# [**Hands Down**](http://handsdownlayout.com) on ![zen pic](images/zenlogo.png)
-My personal ZMK take on [**Hands Down**](http://handsdownlayout.com) on small portable boards.
-![zen pic](images/zen.jpg)
+# [**Hands Down**](http://handsdownlayout.com) on Re-gret
+
+My adapted ZMK take on [**Hands Down**](http://handsdownlayout.com) for small portable boards. As I am just learning this layout, I will include an alternate Dvorak bas layer.
+
+**work in progress**
 
 **Hands Down** *Vibranium-Vf*
 ```
