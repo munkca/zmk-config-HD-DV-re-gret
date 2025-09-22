@@ -27,13 +27,13 @@
 
      ZMK_MACRO(m_alpha,
         bindings =
-            <&kp LANG2>,    // switch to Roman/Latin script (m_henk/latin)
+        //    <&kp LANG2>,    // switch to Hands Down
             <&to l_hd>;     // make alpha layer default
        )
-     ZMK_MACRO(m_japan,
+     ZMK_MACRO(m_dv,
         bindings =
-            <&kp LANG1>,    // switch to Japanese script (henk/kana/romaji)
-            <&to l_jp>;     // make Japanese layer default
+      //      <&kp LANG1>,    // switch to dvorak
+            <&to l_dv>;     // make dvorak layer default
        )
 
 /*
@@ -434,7 +434,7 @@
 #include "moutis_m_pronoun.dtsi"
 
 #endif // EN_PRONOUN_COMBOS
-#ifdef JP_MODE_ENABLE                   // Japanese macros?
-#include "moutis_m_japanese.dtsi"
-#endif // JP_MODE_ENABLE
+// #ifdef JP_MODE_ENABLE                   // Japanese macros?
+// #include "moutis_m_japanese.dtsi"
+// #endif // JP_MODE_ENABLE
 
