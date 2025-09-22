@@ -7,6 +7,8 @@
 #
 ---
 include:
+  - board: seeeduino_xiao_ble
+    shield: re-gret
   - board: ahokore
   - board: zaphod
   - board: sparkfun_pro_micro_rp2040
