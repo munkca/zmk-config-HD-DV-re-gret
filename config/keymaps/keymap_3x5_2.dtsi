@@ -30,10 +30,10 @@
             l_dv {
                 label = DV_Layer_label;
                 bindings = <
-                                DV_LT               JP_RT
-                                DV_LM               JP_RM
-                                DV_LB               JP_RB
-                                DV_LH               JP_RH
+                                DV_LT               DV_RT
+                                DV_LM               DV_RM
+                                DV_LB               DV_RB
+                                DV_LH               DV_RH
                 >;
             };
             l_akDOT {
