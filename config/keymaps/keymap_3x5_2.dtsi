@@ -27,13 +27,13 @@
                                 HD_LH               HD_RH
                 >;
             };
-            l_jp {
-                label = JP_Layer_label;
+            l_dv {
+                label = DV_Layer_label;
                 bindings = <
-                                JP_LT               JP_RT
-                                JP_LM               JP_RM
-                                JP_LB               JP_RB
-                                JP_LH               JP_RH
+                                DV_LT               JP_RT
+                                DV_LM               JP_RM
+                                DV_LB               JP_RB
+                                DV_LH               JP_RH
                 >;
             };
             l_akDOT {
