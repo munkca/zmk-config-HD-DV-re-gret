@@ -34,17 +34,17 @@
 #define HD_RB &MinusPlus      &ak_U           &ak_O           &ak_Y           &ak_B
 #define HD_RH &lt l_sym SPACE &lt l_nav RETURN
 
-// Japanese "mode" (no adaptives, & L, C, X not used so repurpose to ん, Z, -)
-#define JP_Layer_label "HD-JP"
-#define JP_LT &kp MINUS       &kp W           &kp M           &kp G           &kp J
-#define JP_LM &hml RCTRL S    &hml RALT Z     &hml RGUI N     &hml RSHFT T    &kp K
-#define JP_LB &kp F           &kp P           &t_nn           &kp D           &kp V
-#define JP_LH                                                 _______         &lt l_nav R
+// dvorak "mode" (no adaptives)
+#define DV_Layer_label "HD-DV"
+#define DV_LT &kp MINUS       &kp W           &kp M           &kp G           &kp J
+#define DV_LM &hml RCTRL S    &hml RALT Z     &hml RGUI N     &hml RSHFT T    &kp K
+#define DV_LB &kp F           &kp P           &t_nn           &kp D           &kp V
+#define DV_LH                                                 _______         &lt l_nav R
 
-#define JP_RT _______         &DotColnJ       &SlshStarJ      &lk_LRbkt       &kp RBKT
-#define JP_RM _______         &hmr LSHFT A    &hmr LGUI E     &hmr LALT I     &hmr LCTRL H
-#define JP_RB _______         &kp U           &kp O           &kp Y           &kp B
-#define JP_RH _______         _______
+#define DV_RT _______         &DotColnJ       &SlshStarJ      &lk_LRbkt       &kp RBKT
+#define DV_RM _______         &hmr LSHFT A    &hmr LGUI E     &hmr LALT I     &hmr LCTRL H
+#define DV_RB _______         &kp U           &kp O           &kp Y           &kp B
+#define DV_RH _______         _______
 
 
 #define l_akDOT_label "l_akDOT" // adaptive grabbag sticky layer.
