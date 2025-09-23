@@ -35,12 +35,11 @@
 #define HD_RH &lt l_sym SPACE &lt l_nav RETURN
 
 // dvorak "mode" (no adaptives)
-#define DV_Layer_label "H
-DV"
-#define DV_LT &kp MINUS       &kp W           &kp M           &kp G           &kp J
+#define DV_Layer_label "DV"
+#define DV_LT &kp SQT.        &kp COMMA       &kp DOT         &ak_P           &ak_Y
 #define DV_LM &mt_Ad LGUI A   &mt_Od LALT O   &mt_Ed LSHFT E  &mt_Ud LCTRL T  &ak_I
-#define DV_LB &kp F           &kp P           &t_nn           &kp D           &kp V
-#define DV_LH                                                 _______         &lt l_nav R
+#define DV_LB &kp SEMI        &ak_Q           &ak_J           &ak_K           &ak_X
+#define DV_LH                                                 &lt_BSPC l_fun BSP    &mo l_nav
 
 #define DV_RT _______         &DotColnJ       &SlshStarJ      &lk_LRbkt       &kp RBKT
 #define DV_RM _______         &hmr LSHFT A    &hmr LGUI E     &hmr LALT I     &hmr LCTRL H
