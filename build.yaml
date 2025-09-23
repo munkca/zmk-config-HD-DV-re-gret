@@ -5,8 +5,5 @@
 # the `include` property, e.g:
 #
 #
----
-include:
-  - board: seeeduino_xiao_ble
-    shield: re-gret
- 
+board: [ "seeeduino_xiao_ble" ]
+shield: [ "re-gret" ]
