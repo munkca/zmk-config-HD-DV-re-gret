@@ -34,15 +34,26 @@
 #define HD_RB &MinusPlus      &ak_U           &ak_O           &ak_Y           &ak_B
 #define HD_RH &lt l_sym SPACE &lt l_nav RETURN
 
+/*               Base (svorak) Layer
+                    34 keys (core)
+ ╭─────────────────────╮ ╭──────────────────────╮
+ │  '   ,   .   P   Y  │ │  F   G   C   R   L   │
+ │  A   O   E   U   I  | |  D   H   T   N   S   │
+ │  ;   Q   J   K   X  │ │  B   M   W   V   Z   │
+ ╰──────────╮ BSP &mo  │ │  SPC RET  ╭──────────╯
+            ╰──────────╯ ╰───────────╯
+*/
+
+
 // dvorak "mode" (no adaptives)
 #define DV_Layer_label "DV"
 #define DV_LT &kp SQT         &kp COMMA       &kp DOT         &ak_P           &ak_Y
-#define DV_LM &mt_Ad LGUI A   &mt_Od LALT O   &mt_Ed LSHFT E  &mt_Ud LCTRL T  &ak_I
+#define DV_LM &mt_Ad LGUI A   &mt_Od LALT O   &mt_Ed LSHFT E  &mt_Ud LCTRL U  &ak_I
 #define DV_LB &kp SEMI        &ak_Q           &ak_J           &ak_K           &ak_X
 #define DV_LH                                                 &lt_BSPC l_fun BSP    &mo l_nav
 
-#define DV_RT _______         &DotColnJ       &SlshStarJ      &lk_LRbkt       &kp RBKT
-#define DV_RM _______         &hmr LSHFT A    &hmr LGUI E     &hmr LALT I     &hmr LCTRL H
+#define DV_RT &ak_F           &ak_G           &ak_C           &ak_R           &ak_L
+#define DV_RM &ak_D           &mt_Hd LCTRL H  &mt_Td LSHFT T  &mt_Nd LALT N   &mt_Sd LGUI S
 #define DV_RB _______         &kp U           &kp O           &kp Y           &kp B
 #define DV_RH _______         _______
 
