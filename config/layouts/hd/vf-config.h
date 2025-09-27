@@ -54,7 +54,7 @@
 
 #define DV_RT &ak_F           &ak_G           &ak_C           &ak_R           &ak_L
 #define DV_RM &ak_D           &mt_Hd LCTRL H  &mt_Td LSHFT T  &mt_Nd LALT N   &mt_Sd LGUI S
-#define DV_RB _______         &kp U           &kp O           &kp Y           &kp B
+#define DV_RB &ak_B           &ak_M           &ak_W           &ak_V           &ak_Z
 #define DV_RH _______         _______
 
 
