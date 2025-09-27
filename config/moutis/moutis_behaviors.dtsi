@@ -101,7 +101,7 @@
         };
         mt_Ed: mt_Ed {
             my_hrm_config;
-            bindings = <&kp>, <&ak_O>;
+            bindings = <&kp>, <&ak_E>;
             hold-trigger-key-positions = <KEYS_R THUMBS>; // right hand allowed
         };
         mt_Ud: mt_Ud {
@@ -592,14 +592,5 @@
             my_lk_config;
             bindings = <&t_RHoldE>, <&t_RTapE>;
     };
-#ifdef JP_MODE_ENABLE
-    lk_L_textJ: lk_L_textJ { //
-            my_lk_config;
-            bindings = <&t_LHoldJ>, <&t_LTapJ>;
-    };
-    lk_R_textJ: lk_R_textJ { //
-            my_lk_config;
-            bindings = <&t_RHoldJ>, <&t_RTapJ>;
-    };
-#endif
+
 
