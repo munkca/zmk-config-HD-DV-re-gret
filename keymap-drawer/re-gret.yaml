@@ -1,0 +1,466 @@
+layout: {zmk_keyboard: re-gret}
+layers:
+  HD-Vf:
+  - X
+  - W
+  - M
+  - G
+  - J
+  - {t: '&ak_HASH', s: $}
+  - {t: ., s: ':'}
+  - {t: /, s: '*'}
+  - {t: '&ak_DQT', h: '"', s: <}
+  - {t: '&ak_SQT', h: '&t_pairSquo', s: '>'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - K
+  - {t: ',', h: '$$mdi:apple-keyboard-caps$$', s: ;}
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
+  - F
+  - P
+  - L
+  - D
+  - V
+  - {t: '-', s: +}
+  - U
+  - O
+  - Y
+  - B
+  - {t: '$$mdi:backspace$$', h: l_fn, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: R, h: l_nav}
+  - {t: '$$mdi:keyboard-space$$', h: l_sym}
+  - {t: '$$mdi:keyboard-return$$', h: l_nav}
+  DV:
+  - {t: '''', s: '"'}
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: U, h: '$$mdi:apple-keyboard-control$$'}
+  - I
+  - D
+  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ;, s: ':'}
+  - ''
+  - J
+  - K
+  - X
+  - {t: '$$mdi:transfer$$', type: trans}
+  - U
+  - O
+  - Y
+  - B
+  - {t: '$$mdi:backspace$$', h: l_fn, s: '$$mdi:backspace-reverse-outline$$'}
+  - l_nav
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  l_akDOT:
+  - T
+  - L
+  - L
+  - L
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $
+  - {t: ., s: '>'}
+  - '&t_dotcom'
+  - '&t_dotedu'
+  - '&t_dotorg'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:alpha-w-box$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&b_wd'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  l_sym:
+  - Z
+  - ''
+  - {t: Alt+7, s: Alt+&}
+  - {t: Alt+Sft+5, s: Alt+Sft+%}
+  - {t: Alt+Sft+7, s: Alt+Sft+&}
+  - {t: Alt+4, s: Alt+$}
+  - $
+  - {t: Alt+Sft+2, s: Alt+Sft+@}
+  - {t: Alt+3, s: Alt+#}
+  - Alt+Y
+  - ∞
+  - {t: '[', s: '{'}
+  - (
+  - '{'
+  - {t: Alt+8, s: Alt+*}
+  - {t: /, s: '?'}
+  - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
+  - {t: '*', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: +, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
+  - {t: Alt+Sft+8, s: Alt+Sft+*}
+  - {t: ']', s: '}'}
+  - )
+  - '}'
+  - {t: Alt+Sft+9, s: Alt+Sft+(}
+  - ^
+  - '|'
+  - '&'
+  - {t: <, h: '&t_pairLtGt GT'}
+  - '>'
+  - {t: 'Alt+$$mdi:backspace$$', type: backspace}
+  - Alt+$$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: Alt+1, s: Alt+!}
+  l_fn:
+  - F9
+  - F10
+  - F11
+  - F12
+  - F13
+  - {t: /, s: '?'}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '-', s: _}
+  - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F6, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F7, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F8, h: '$$mdi:apple-keyboard-shift$$'}
+  - F14
+  - '*'
+  - {t: '1', h: '$$mdi:apple-keyboard-shift$$', s: '!'}
+  - {t: '2', h: '$$mdi:apple-keyboard-command$$', s: '@'}
+  - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: '#'}
+  - {t: +, h: '$$mdi:apple-keyboard-control$$'}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F15
+  - CMMA
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '=', s: +}
+  - {t: '$$mdi:backspace$$', type: held}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '0', s: )}
+  - {t: ., s: '>'}
+  l_num:
+  - Gui+$$mdi:arrow-up-bold$$
+  - HOME
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:transfer-up$$
+  - Alt+$$mdi:arrow-up-bold$$
+  - KP DIVIDE
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP SUBTRACT
+  - Alt+$$mdi:arrow-left-bold$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - Alt+$$mdi:arrow-right-bold$$
+  - KP MULTIPLY
+  - {t: KP 4, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: KP 5, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: KP 6, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: KP PLUS, h: '$$mdi:apple-keyboard-control$$'}
+  - Gui+$$mdi:arrow-down-bold$$
+  - END
+  - $$mdi:keyboard-space$$
+  - $$mdi:transfer-down$$
+  - Alt+$$mdi:arrow-down-bold$$
+  - KP COMMA
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP EQUAL
+  - {t: '$$mdi:backspace$$', h: l_fn}
+  - {t: KP ENTER, h: l_nav}
+  - KP 0
+  - KP DOT
+  l_nav:
+  - ''
+  - Gui+W
+  - {t: Gui+Sft+4, s: Gui+Sft+$}
+  - {t: Gui+Sft+Ctl+4, s: Gui+Sft+Ctl+$}
+  - Paste Match
+  - Gui+$$mdi:arrow-up-bold$$
+  - HOME
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:transfer-up$$
+  - Alt+$$mdi:arrow-up-bold$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
+  - FIND
+  - Alt+$$mdi:arrow-left-bold$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - Alt+$$mdi:arrow-right-bold$$
+  - UNDO
+  - CUT
+  - COPY
+  - Paste Match
+  - Gui+G
+  - Gui+$$mdi:arrow-down-bold$$
+  - END
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:transfer-down$$
+  - Alt+$$mdi:arrow-down-bold$$
+  - Win Prev
+  - {t: Win Next, type: held}
+  - {t: 'Gui+[', s: 'Gui+{'}
+  - {t: 'Gui+]', s: 'Gui+}', type: held alternate}
+  l_cfg:
+  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - $$mdi:bluetooth-off$$
+  - {t: Gui+0, s: Gui+)}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
+  - Gui+Alt+ESCAPE
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:skip-next$$
+  - $$mdi:play-pause$$
+  - $$mdi:volume-high$$
+  - $$mdi:brightness-5$$
+  - {t: Gui+-, s: Gui+_}
+  - $$mdi:volume-high$$
+  - $$mdi:volume-off$$
+  - $$mdi:skip-next$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backup-restore$$', h: '$$mdi:progress-download$$'}
+  - $$mdi:skip-previous$$
+  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
+  - $$mdi:brightness-7$$
+  - {t: Gui+=, s: Gui++}
+  - $$mdi:volume-low$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-previous$$
+  - {t: '$$mdi:backup-restore$$', h: '$$mdi:progress-download$$'}
+  - {t: Gui+-, s: Gui+_, type: held}
+  - {t: Gui+=, s: Gui++, type: held}
+  - {t: Gui+=, s: Gui++, type: held alternate}
+  - {t: Gui+-, s: Gui+_, type: held alternate}
+combos:
+- p: [11, 12, 13]
+  k: '&m_alpha'
+- p: [16, 17, 18]
+  k: '&m_japan'
+- p: [30, 31]
+  k: l_cfg
+- p: [32, 33]
+  k: l_cfg
+- p: [31, 32]
+  k: Num Word
+  a: bottom
+  o: 0.15
+- p: [3, 4]
+  k: Win Next
+  a: top
+- p: [28, 29]
+  k: $$mdi:alpha-w-box$$
+  l: [HD-Vf]
+  draw_separate: true
+- p: [27, 28, 29]
+  k: $$mdi:apple-keyboard-caps$$
+  l: [HD-Vf]
+  draw_separate: true
+- p: [22, 23, 24]
+  k: CMD ENTER
+  draw_separate: true
+- p: [23, 24]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  draw_separate: true
+- p: [0, 1]
+  k: $$mdi:keyboard-tab$$
+  a: top
+  o: 0.15
+- p: [0, 1, 2]
+  k: $$mdi:keyboard-tab-reverse$$
+- p: [13, 14]
+  k: $$mdi:keyboard-space$$
+  draw_separate: true
+- p: [10, 13]
+  k: $$mdi:keyboard-esc$$
+  draw_separate: true
+- p: [20, 23]
+  k: SELECT ALL
+  draw_separate: true
+- p: [20, 21]
+  k: UNDO
+- p: [20, 21, 22]
+  k: Gui+Sft+Z
+- p: [21, 22]
+  k: {t: Gui+C, h: Gui+X}
+- p: [22, 23]
+  k: {t: Gui+V, h: Gui+Sft+Alt+V}
+- p: [4, 14]
+  k: ''
+  l: [HD-Vf]
+- p: [14, 24]
+  k: Gui+N
+  l: [HD-Vf]
+- p: [5, 15]
+  k: Gui+W
+  l: [HD-Vf]
+- p: [15, 25]
+  k: Gui+O
+  l: [HD-Vf]
+- p: [20, 24]
+  k: '&m_selword'
+  l: [HD-Vf]
+- p: [10, 24]
+  k: '&m_findsel'
+  l: [HD-Vf]
+- p: [6, 8]
+  k: {t: ':', h: '...'}
+  l: [HD-Vf]
+  a: top
+  o: 0.5
+- p: [15, 16]
+  k: {t: ;, s: ':'}
+  l: [HD-Vf]
+- p: [6, 7]
+  k: '!'
+  l: [HD-Vf]
+- p: [7, 8]
+  k: '?'
+  l: [HD-Vf]
+- p: [8, 9]
+  k: {t: '`', s: '~'}
+  l: [HD-Vf]
+- p: [5, 6]
+  k: {t: '@', h: Sft+Alt+;}
+  l: [HD-Vf]
+- p: [26, 28]
+  k: _
+  l: [HD-Vf]
+- p: [27, 28]
+  k: {t: '=', h: '%', s: +}
+  l: [HD-Vf]
+- p: [25, 26]
+  k: {t: Alt+-, h: Alt+Sft+-, s: Alt+_}
+  l: [HD-Vf]
+- p: [25, 27]
+  k: Alt+Sft+-
+  l: [HD-Vf]
+- p: [25, 28]
+  k: '~'
+  l: [HD-Vf]
+- p: [16, 26]
+  k: Alt+.
+  l: [HD-Vf]
+- p: [17, 27]
+  k: ''
+  l: [HD-Vf]
+- p: [16, 17]
+  k: {t: Alt+E, h: '&t_Eaccent E'}
+  l: [HD-Vf]
+- p: [17, 18]
+  k: {t: Alt+`, h: '&t_Egrave E', s: Alt+~}
+  l: [HD-Vf]
+- p: [16, 18]
+  k: {t: Alt+6, h: '&t_Eacute E', s: Alt+^}
+  l: [HD-Vf]
+- p: [17, 19]
+  k: {t: Alt+A, h: '&t_Omacron E'}
+  l: [HD-Vf]
+- p: [16, 19]
+  k: {t: Alt+K, h: '&t_Aring A'}
+  l: [HD-Vf]
+- p: [26, 27]
+  k: {t: Alt+U, h: '&t_Uumlaut U'}
+  l: [HD-Vf]
+- p: [10, 12]
+  k: {t: Alt+C, h: '&t_Cedille C'}
+  l: [HD-Vf]
+- p: [16, 17]
+  k: (
+  l: [l_num]
+- p: [17, 18]
+  k: )
+  l: [l_num]
+- p: [18, 19]
+  k: {t: '=', s: +}
+  l: [l_num]
+- p: [16, 18]
+  k: ':'
+  l: [l_num]
+- p: [28, 29]
+  k: '%'
+  l: [l_num]
+- p: [15, 16]
+  k: <
+  l: [l_num]
+- p: [15, 19]
+  k: '>'
+  l: [l_num]
+- p: [25, 26]
+  k: Alt+-
+  l: [l_num]
+- p: [25, 29]
+  k: '~'
+  l: [l_num]
+- p: [26, 29]
+  k: '...'
+  l: [l_num]
+- p: [6, 7]
+  k: $
+  l: [l_num]
+- p: [5, 6]
+  k: Alt+4
+  l: [l_num]
+- p: [7, 8]
+  k: Sft+Alt+2
+  l: [l_num]
+- p: [8, 9]
+  k: Alt+Y
+  l: [l_num]
+- p: [6, 8]
+  k: Alt+3
+  l: [l_num]
+- p: [1, 2, 3]
+  k: {t: '&t_LTapE', h: '&t_LHoldE'}
+  l: [HD-Vf]
+- p: [6, 7, 8]
+  k: {t: '&t_RTapE', h: '&t_RHoldE'}
+  l: [HD-Vf]
