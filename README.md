@@ -1,6 +1,6 @@
 # [**Hands Down**](http://handsdownlayout.com) on Re-gret
 
-My adapted ZMK take on [**Hands Down**](http://handsdownlayout.com) for small portable boards. As I am just learning this layout, I will include an alternate Dvorak bas layer.
+My adapted ZMK take on Alan Reiser's [**Hands Down**](https://github.com/moutis/zmk-config) for small portable boards. As I am just learning this layout, I will include an alternate Dvorak base layer.
 
 **work in progress**
 
