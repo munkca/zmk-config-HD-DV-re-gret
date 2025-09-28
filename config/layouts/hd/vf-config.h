@@ -16,25 +16,25 @@
 /*      Base (alpha) Layer Hands Down Vibranium-vf
                     34 keys (core)
  ╭─────────────────────╮ ╭──────────────────────╮
- │  X   W   M   G   J  │ │  #$  .:  /*  "<  '>  │
+ │  '   W   M   G   X  │ │  #$  .:  ?!      /*  │
  │  S   C   N   T   K  | |  ,;   A   E   I   H  │
- │  F   P   L   D   V  │ │  -+   U   O   Y   B  │
+ │  F   P   L   D   J  │ │  -+   U   O   Y   B  │
  ╰──────────╮  BSP  R  │ │  SPC RET  ╭──────────╯
             ╰──────────╯ ╰───────────╯
 */
 
 #define HD_Layer_label "HD-Vf"
-#define HD_LT &ak_X           &ak_W           &ak_M           &ak_G           &ak_J
+#define HD_LT &kp SQT         &ak_W           &ak_M           &ak_G           &ak_X
 #define HD_LM &mt_S LCTRL S   &mt_C LALT C    &mt_N LGUI N    &mt_T LSHFT T   &ak_K
-#define HD_LB &ak_F           &ak_P           &ak_L           &ak_D           &ak_V
-#define HD_LH                                                 &lt_BSPC l_fun BSPC   &lt_R l_nav R
+#define HD_LB &ak_F           &ak_P           &ak_L           &ak_D           &ak_J
+#define HD_LH                                              &lt_BSPC l_sym BSPC   &lt_R l_nav R
 
-#define HD_RT &HashDllr       &DotColn        &SlshStar       &DqtLT          &SqtGT
+#define HD_RT &HashDllr       &DotColn        &QuesExcl       &none           &SlshStar
 #define HD_RM &CommaMagic     &mt_A RSHFT A   &mt_E RGUI E    &mt_I RALT I    &mt_H RCTRL H
 #define HD_RB &MinusPlus      &ak_U           &ak_O           &ak_Y           &ak_B
-#define HD_RH &lt l_sym SPACE &lt l_nav RETURN
+#define HD_RH &kp SPACE       &lt l_num RETURN
 
-/*               Base (svorak) Layer
+/*               Base (dvorak) Layer
                     34 keys (core)
  ╭─────────────────────╮ ╭──────────────────────╮
  │  '   ,   .   P   Y  │ │  F   G   C   R   L   │
@@ -50,7 +50,7 @@
 #define DV_LT &kp SQT         &kp COMMA       &kp DOT         &ak_P           &ak_Y
 #define DV_LM &mt_Ad LGUI A   &mt_Od LALT O   &mt_Ed LSHFT E  &mt_Ud LCTRL U  &ak_I
 #define DV_LB &kp SEMI        &ak_Q           &ak_J           &ak_K           &ak_X
-#define DV_LH                                                 &lt_BSPC l_fun BSP    &mo l_nav
+#define DV_LH                                                 &lt_BSPC l_sym BSP    &mo l_nav
 
 #define DV_RT &ak_F           &ak_G           &ak_C           &ak_R           &ak_L
 #define DV_RM &ak_D           &mt_Hd LCTRL H  &mt_Td LSHFT T  &mt_Nd LALT N   &mt_Sd LGUI S
