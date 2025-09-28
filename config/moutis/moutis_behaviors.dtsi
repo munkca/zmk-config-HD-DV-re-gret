@@ -220,6 +220,24 @@
             bindings = <&kp MINUS>, <&kp PLUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+        QuesExcl: QuesExcl {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp QMARK>, <&kp EXCL>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        LTLTE: LTLTE {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp LT>, <&kp RA(COMMA)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        GTGTE: GTGTE{
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp GT>, <&kp RA(DOT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
 
 /*
  * &DqtLT (put just this in the keymap)
