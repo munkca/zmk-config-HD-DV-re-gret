@@ -29,12 +29,6 @@
  *      LH5 LH4 LH3 ╰────────╯                  ╰────────╯ RH3 RH4 LH5
 */
 
-//
-// type a glyph (tiny board accommodation)
-//
-
-COMBO_LAYER(t_Q,     &lk_qu Q U,    LT3 LT1, l_hd)       // type Qu, linger deletes u
-COMBO_LAYER(t_Z,     &ak_Z,         LM3 LM1, l_hd)       // Z is typically off map
 
 #ifdef H_DIGRAPH_COMBOS
 //
