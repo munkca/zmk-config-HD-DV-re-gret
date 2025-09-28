@@ -15,4 +15,4 @@ My adapted ZMK take on Alan Reiser's [**Hands Down**](https://github.com/moutis/
 ```
 
 # Current layout
-![keymap](keymap-drawer/tern.svg)
+![keymap](keymap-drawer/re-gret.svg)
