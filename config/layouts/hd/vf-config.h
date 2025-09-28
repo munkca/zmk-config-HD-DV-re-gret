@@ -25,12 +25,12 @@
 
 #define HD_Layer_label "HD-Vf"
 #define HD_LT &kp SQT         &ak_W           &ak_M           &ak_G           &ak_X
-#define HD_LM &mt_S LCTRL S   &mt_C LALT C    &mt_N LGUI N    &mt_T LSHFT T   &ak_K
+#define HD_LM &mt_S LGUI S    &mt_C LALT C    &mt_N LSHFT N   &mt_T LCTRL T   &ak_K
 #define HD_LB &ak_F           &ak_P           &ak_L           &ak_D           &ak_J
 #define HD_LH                                              &lt_BSPC l_sym BSPC   &lt_R l_nav R
 
 #define HD_RT &HashDllr       &DotColn        &QuesExcl       &none           &SlshStar
-#define HD_RM &CommaMagic     &mt_A RSHFT A   &mt_E RGUI E    &mt_I RALT I    &mt_H RCTRL H
+#define HD_RM &CommaMagic     &mt_A RCTRL A   &mt_E RSHFT E   &mt_I RALT I    &mt_H RGUI H
 #define HD_RB &MinusPlus      &ak_U           &ak_O           &ak_Y           &ak_B
 #define HD_RH &kp SPACE       &lt l_num RETURN
 
@@ -53,7 +53,7 @@
 #define DV_LH                                                 &lt_BSPC l_sym BSP    &mo l_nav
 
 #define DV_RT &ak_F           &ak_G           &ak_C           &ak_R           &ak_L
-#define DV_RM &ak_D           &mt_Hd LCTRL H  &mt_Td LSHFT T  &mt_Nd LALT N   &mt_Sd LGUI S
+#define DV_RM &ak_D           &mt_Hd RCTRL H  &mt_Td RSHFT T  &mt_Nd RALT N   &mt_Sd RGUI S
 #define DV_RB &ak_B           &ak_M           &ak_W           &ak_V           &ak_Z
 #define DV_RH _______         _______
 
