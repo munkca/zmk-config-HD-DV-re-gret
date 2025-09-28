@@ -97,7 +97,7 @@
         mt_Od: mt_Od {  
             my_hrm_config;
             bindings = <&kp>, <&ak_O>;
-//            hold-trigger-key-positions = <KEYS_R THUMBS>; // right hand allowed
+            hold-trigger-key-positions = <KEYS_R THUMBS>; // right hand allowed
         };
         mt_Ed: mt_Ed {
             my_hrm_config;
