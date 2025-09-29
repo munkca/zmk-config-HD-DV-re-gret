@@ -452,17 +452,7 @@
             ak_SQT_A { trigger-keys = <U>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp A>; };
             ak_SQT_U { trigger-keys = <A>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp U>; };
         };
-        ak_HASH: ak_HASH {
-            compatible = "zmk,behavior-adaptive-key";
-            #binding-cells = <0>;
-            bindings = <&kp HASH>;
 
-        ak_HASH_INVX { trigger-keys = <FSLH>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC &kp S_INVX>; };
-        ak_HASH_b_Gratefully { trigger-keys = <G>; max-prior-idle-ms = <my_ak_term>; bindings = <&b_Gratefully>; };
-        ak_HASH_b_Indiana { trigger-keys = <I>; max-prior-idle-ms = <my_ak_term>; bindings = <&b_Indiana>; };
-        ak_HASH_b_University { trigger-keys = <U>; max-prior-idle-ms = <my_ak_term>; bindings = <&b_University>; };
-        ak_HASH_b_Bloomington { trigger-keys = <B>; max-prior-idle-ms = <my_ak_term>; bindings = <&b_Bloomington>; };
-        };
 
 
 /*
@@ -554,34 +544,7 @@
             bindings = <&t_pairExcl>, <&kp>;
         };
 
-        lk_E_accent: lk_E_accent { // ´, é on "linger"
-            my_lk_config;
-            bindings = <&t_Eaccent>, <&kp>;
-        };
-        lk_E_grave: lk_E_grave { // `, è on "linger"
-            my_lk_config;
-            bindings = <&t_Egrave>, <&kp>;
-        };
-        lk_E_acute: lk_E_acute { // ˆ, ê on "linger"
-            my_lk_config;
-            bindings = <&t_Eacute>, <&kp>;
-        };
-        lk_O_macron: lk_O_macron { // ¯, ō on "linger"
-            my_lk_config;
-            bindings = <&t_Omacron>, <&kp>;
-        };
-        lk_A_ring: lk_A_ring { // ˚, å on "linger"
-            my_lk_config;
-            bindings = <&t_Aring>, <&kp>;
-        };
-        lk_U_umlaut: lk_U_umlaut { // ¨, ü on "linger"
-            my_lk_config;
-            bindings = <&t_Uumlaut>, <&kp>;
-        };
-        lk_C_cedille: lk_C_cedille { // ¸, ç on "linger"
-            my_lk_config;
-            bindings = <&t_Cedille>, <&kp>;
-        };
+
 
         lk_th: lk_th { // Th on tap, tion on "linger"
             my_lk_config;
@@ -597,18 +560,5 @@
         };
 
 
-/*
- *
- * Three finger text macros (tap & hold varieties)
- *
- */
-    lk_L_textE: lk_L_textE { //
-            my_lk_config;
-            bindings = <&t_LHoldE>, <&t_LTapE>;
-    };
-    lk_R_textE: lk_R_textE { //
-            my_lk_config;
-            bindings = <&t_RHoldE>, <&t_RTapE>;
-    };
 
 
