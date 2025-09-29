@@ -13,7 +13,7 @@
 #define COMMA_CAP           // , before alpha capitalizes that alpha
 #define H_DIGRAPH_COMBOS    // th, ch, sh, wh, gh, ph
 #define EN_PRONOUN_COMBOS   // I, I'm, I've I'd I'll you've you'd your you're you'll etc.
-#define DV_MODE_ENABLE      // Add a DV layer,combos, etc.
+// #define DV_MODE_ENABLE      // Add a DV layer,combos, etc.
 
 
 /*
