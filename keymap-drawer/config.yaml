@@ -7,7 +7,46 @@ parse_config:
  # layer_legend_map:
  #   {'lak_DOT': 'Adapt', 'l_sym': '2-Sym', 'l_num': '3-Num','l_nav': '4-Nav', 'l_cfg': '5-Sys'}
     
-  
+     '&mkp LCLK': $$mdi:cursor-default-click$$
+    '&mkp RCLK': $$mdi:cursor-default-click-outline$$
+    '&mkp MCLK': $$mdi:mouse-scroll-wheel$$    
+    '&msc SCRL_UP': '$$mdi:pan-up$$'
+    '&msc SCRL_DOWN': '$$mdi:pan-down$$'
+    '&msc SCRL_LEFT': '$$mdi:pan-left$$'
+    '&msc SCRL_RIGHT': '$$mdi:pan-right$$'
+    '&mmv MOVE_LEFT':
+      tap:     $$mdi:tortoise$$
+      shifted: $$mdi:arrow-left$$
+      type:    sym_by_sym
+    '&mmv MOVE_RIGHT':
+      tap:     $$mdi:tortoise$$
+      shifted: $$mdi:arrow-right$$
+      type:    sym_by_sym
+    '&mmv MOVE_UP':
+      tap:     $$mdi:tortoise$$
+      shifted: $$mdi:arrow-up$$
+      type:    sym_by_sym
+    '&mmv MOVE_DOWN':
+      tap:     $$mdi:tortoise$$
+      shifted: $$mdi:arrow-down$$
+      type:    sym_by_sym
+    '&fmmv MOVE_LEFT':
+      tap:     $$mdi:mouse$$
+      shifted: $$mdi:arrow-left$$
+      type:    sym_by_sym
+    '&fmmv MOVE_RIGHT':
+      tap:     $$mdi:mouse$$
+      shifted: $$mdi:arrow-right$$
+      type:    sym_by_sym
+    '&fmmv MOVE_UP':
+      tap:     $$mdi:mouse$$
+      shifted: $$mdi:arrow-up$$
+      type:    sym_by_sym
+    '&fmmv MOVE_DOWN':
+      tap:     $$mdi:mouse$$
+      shifted: $$mdi:arrow-down$$
+      type:    sym_by_sym  
+   
   raw_binding_map:
     '&SlAppy': Win Next
     '&SlApBack': Win Prev
