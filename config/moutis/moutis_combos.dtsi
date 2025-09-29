@@ -49,7 +49,7 @@ COMBO_LAYER(t_V,     &ak_V,         LB4 LB3, l_hd)       // default V key gone o
 COMBO_ANY(HD,    &to l_hd,      LM3 LM2 LM1)    // set base layer to HD
 COMBO_ANY(dv,    &to l_dv,      RM1 RM2 RM3)    // set base layer to dvorak
 COMBO_ANY(cfg,   &mo l_cfg,     RH1 LH1)        // get the settings/media layer from anywhere
-COMBO_ANY(cfg,   &mo l_fun,     LH2 LH1)        // get the function layer from anywhere
+COMBO_ANY(fun,   &mo l_fun,     LH2 LH1)        // get the function layer from anywhere
 
 COMBO_ANY(numpad,    &num_word l_num,    RH1 RH2)
 COMBO_ANY(appswitch, &SlAppy,       LT1 LT0)        // App switch
