@@ -541,15 +541,15 @@ rect.held, rect.combo.held {
 <g transform="translate(328, 367) rotate(27.0)" class="key keypos-30">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:backspace"/>
-<a href="#l_sym">
-<text x="0" y="34" class="key hold layer-activator">l_sym</text>
+<a href="#Sym">
+<text x="0" y="34" class="key hold layer-activator">Sym</text>
 </a><use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-8" y="-34" height="16" width="16.0" class="key shifted glyph mdi:backspace-reverse-outline"/>
 </g>
 <g transform="translate(402, 412) rotate(34.0)" class="key keypos-31">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">R</text>
-<a href="#l_nav">
-<text x="0" y="34" class="key hold layer-activator">l_nav</text>
+<a href="#Nav">
+<text x="0" y="34" class="key hold layer-activator">Nav</text>
 </a></g>
 <g transform="translate(599, 412) rotate(-34.0)" class="key keypos-32">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -558,8 +558,8 @@ rect.held, rect.combo.held {
 <g transform="translate(673, 367) rotate(-27.0)" class="key keypos-33">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:keyboard-return"/>
-<a href="#l_num">
-<text x="0" y="34" class="key hold layer-activator">l_num</text>
+<a href="#Num">
+<text x="0" y="34" class="key hold layer-activator">Num</text>
 </a></g>
 <g class="combo combopos-0">
 <path d="M258,-31 h-77 a6.0,6.0 0 0 0 -6.0,6.0 v48" class="combo"/>
@@ -584,16 +584,17 @@ rect.held, rect.combo.held {
 <path d="M501,412 l72,0" class="combo"/>
 <path d="M501,412 l-72,0" class="combo"/>
 <rect rx="4" ry="4" x="486" y="397" width="30" height="30" class="combo"/>
-<a href="#l_cfg">
-<text x="501" y="412" class="combo tap layer-activator">l_cfg</text>
+<a href="#Config">
+<text x="501" y="412" class="combo tap layer-activator"><tspan style="font-size: 83%">Config</tspan></text>
 </a></g>
 <g class="combo combopos-4">
 <path d="M365,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-65" class="combo"/>
 <path d="M365,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-20" class="combo"/>
 <rect rx="4" ry="4" x="350" y="450" width="30" height="30" class="combo"/>
-<a href="#l_fn">
-<text x="365" y="465" class="combo tap layer-activator">l_fn</text>
-</a></g>
+<text x="365" y="465" class="combo tap">
+<tspan x="365" dy="-0.5em">Fun/</tspan><tspan x="365" dy="1.0em">Mouse</tspan>
+</text>
+</g>
 <g class="combo combopos-5">
 <path d="M636,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-20" class="combo"/>
 <path d="M636,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-65" class="combo"/>
@@ -774,14 +775,14 @@ rect.held, rect.combo.held {
 <g transform="translate(328, 367) rotate(27.0)" class="key keypos-30">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:backspace"/>
-<a href="#l_sym">
-<text x="0" y="34" class="key hold layer-activator">l_sym</text>
+<a href="#Sym">
+<text x="0" y="34" class="key hold layer-activator">Sym</text>
 </a><use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-8" y="-34" height="16" width="16.0" class="key shifted glyph mdi:backspace-reverse-outline"/>
 </g>
 <g transform="translate(402, 412) rotate(34.0)" class="key keypos-31">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<a href="#l_nav">
-<text x="0" y="0" class="key tap layer-activator">l_nav</text>
+<a href="#Nav">
+<text x="0" y="0" class="key tap layer-activator">Nav</text>
 </a></g>
 <g transform="translate(599, 412) rotate(-34.0)" class="key keypos-32">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -790,23 +791,24 @@ rect.held, rect.combo.held {
 <g transform="translate(673, 367) rotate(-27.0)" class="key keypos-33">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:keyboard-return"/>
-<a href="#l_num">
-<text x="0" y="34" class="key hold layer-activator">l_num</text>
+<a href="#Num">
+<text x="0" y="34" class="key hold layer-activator">Num</text>
 </a></g>
 <g class="combo combopos-0">
 <path d="M501,412 l72,0" class="combo"/>
 <path d="M501,412 l-72,0" class="combo"/>
 <rect rx="4" ry="4" x="486" y="397" width="30" height="30" class="combo"/>
-<a href="#l_cfg">
-<text x="501" y="412" class="combo tap layer-activator">l_cfg</text>
+<a href="#Config">
+<text x="501" y="412" class="combo tap layer-activator"><tspan style="font-size: 83%">Config</tspan></text>
 </a></g>
 <g class="combo combopos-1">
 <path d="M365,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-65" class="combo"/>
 <path d="M365,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-20" class="combo"/>
 <rect rx="4" ry="4" x="350" y="450" width="30" height="30" class="combo"/>
-<a href="#l_fn">
-<text x="365" y="465" class="combo tap layer-activator">l_fn</text>
-</a></g>
+<text x="365" y="465" class="combo tap">
+<tspan x="365" dy="-0.5em">Fun/</tspan><tspan x="365" dy="1.0em">Mouse</tspan>
+</text>
+</g>
 <g class="combo combopos-2">
 <path d="M636,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-20" class="combo"/>
 <path d="M636,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-65" class="combo"/>
@@ -838,8 +840,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1066)" class="layer-l_akDOT">
-<text x="0" y="8" class="label" id="l_akDOT">l_akDOT</text>
+<g transform="translate(40, 1066)" class="layer-Adapt">
+<text x="0" y="8" class="label" id="Adapt">Adapt</text>
 <g transform="translate(0, 45)">
 <g transform="translate(70, 63) rotate(9.0)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -982,16 +984,17 @@ rect.held, rect.combo.held {
 <path d="M501,412 l72,0" class="combo"/>
 <path d="M501,412 l-72,0" class="combo"/>
 <rect rx="4" ry="4" x="486" y="397" width="30" height="30" class="combo"/>
-<a href="#l_cfg">
-<text x="501" y="412" class="combo tap layer-activator">l_cfg</text>
+<a href="#Config">
+<text x="501" y="412" class="combo tap layer-activator"><tspan style="font-size: 83%">Config</tspan></text>
 </a></g>
 <g class="combo combopos-1">
 <path d="M365,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-65" class="combo"/>
 <path d="M365,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-20" class="combo"/>
 <rect rx="4" ry="4" x="350" y="450" width="30" height="30" class="combo"/>
-<a href="#l_fn">
-<text x="365" y="465" class="combo tap layer-activator">l_fn</text>
-</a></g>
+<text x="365" y="465" class="combo tap">
+<tspan x="365" dy="-0.5em">Fun/</tspan><tspan x="365" dy="1.0em">Mouse</tspan>
+</text>
+</g>
 <g class="combo combopos-2">
 <path d="M636,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-20" class="combo"/>
 <path d="M636,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-65" class="combo"/>
@@ -1023,8 +1026,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1591)" class="layer-l_sym">
-<text x="0" y="8" class="label" id="l_sym">l_sym</text>
+<g transform="translate(40, 1591)" class="layer-Sym">
+<text x="0" y="8" class="label" id="Sym">Sym</text>
 <g transform="translate(0, 45)">
 <g transform="translate(70, 63) rotate(9.0)" class="key none keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key none"/>
@@ -1181,16 +1184,17 @@ rect.held, rect.combo.held {
 <path d="M501,412 l72,0" class="combo"/>
 <path d="M501,412 l-72,0" class="combo"/>
 <rect rx="4" ry="4" x="486" y="397" width="30" height="30" class="combo"/>
-<a href="#l_cfg">
-<text x="501" y="412" class="combo tap layer-activator">l_cfg</text>
+<a href="#Config">
+<text x="501" y="412" class="combo tap layer-activator"><tspan style="font-size: 83%">Config</tspan></text>
 </a></g>
 <g class="combo combopos-1">
 <path d="M365,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-65" class="combo"/>
 <path d="M365,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-20" class="combo"/>
 <rect rx="4" ry="4" x="350" y="450" width="30" height="30" class="combo"/>
-<a href="#l_fn">
-<text x="365" y="465" class="combo tap layer-activator">l_fn</text>
-</a></g>
+<text x="365" y="465" class="combo tap">
+<tspan x="365" dy="-0.5em">Fun/</tspan><tspan x="365" dy="1.0em">Mouse</tspan>
+</text>
+</g>
 <g class="combo combopos-2">
 <path d="M636,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-20" class="combo"/>
 <path d="M636,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-65" class="combo"/>
@@ -1248,8 +1252,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 2116)" class="layer-l_fn">
-<text x="0" y="8" class="label" id="l_fn">l_fn</text>
+<g transform="translate(40, 2116)" class="layer-Fun/Mouse">
+<text x="0" y="8" class="label" id="FunMouse">Fun/Mouse</text>
 <g transform="translate(0, 45)">
 <g transform="translate(70, 63) rotate(9.0)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1397,16 +1401,17 @@ rect.held, rect.combo.held {
 <path d="M501,412 l72,0" class="combo"/>
 <path d="M501,412 l-72,0" class="combo"/>
 <rect rx="4" ry="4" x="486" y="397" width="30" height="30" class="combo"/>
-<a href="#l_cfg">
-<text x="501" y="412" class="combo tap layer-activator">l_cfg</text>
+<a href="#Config">
+<text x="501" y="412" class="combo tap layer-activator"><tspan style="font-size: 83%">Config</tspan></text>
 </a></g>
 <g class="combo combopos-1">
 <path d="M365,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-65" class="combo"/>
 <path d="M365,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-20" class="combo"/>
 <rect rx="4" ry="4" x="350" y="450" width="30" height="30" class="combo"/>
-<a href="#l_fn">
-<text x="365" y="465" class="combo tap layer-activator">l_fn</text>
-</a></g>
+<text x="365" y="465" class="combo tap">
+<tspan x="365" dy="-0.5em">Fun/</tspan><tspan x="365" dy="1.0em">Mouse</tspan>
+</text>
+</g>
 <g class="combo combopos-2">
 <path d="M636,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-20" class="combo"/>
 <path d="M636,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-65" class="combo"/>
@@ -1438,8 +1443,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 2641)" class="layer-l_num">
-<text x="0" y="8" class="label" id="l_num">l_num</text>
+<g transform="translate(40, 2641)" class="layer-Num">
+<text x="0" y="8" class="label" id="Num">Num</text>
 <g transform="translate(0, 45)">
 <g transform="translate(70, 63) rotate(9.0)" class="key none keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key none"/>
@@ -1600,16 +1605,17 @@ rect.held, rect.combo.held {
 <path d="M501,412 l72,0" class="combo"/>
 <path d="M501,412 l-72,0" class="combo"/>
 <rect rx="4" ry="4" x="486" y="397" width="30" height="30" class="combo"/>
-<a href="#l_cfg">
-<text x="501" y="412" class="combo tap layer-activator">l_cfg</text>
+<a href="#Config">
+<text x="501" y="412" class="combo tap layer-activator"><tspan style="font-size: 83%">Config</tspan></text>
 </a></g>
 <g class="combo combopos-1">
 <path d="M365,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-65" class="combo"/>
 <path d="M365,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-20" class="combo"/>
 <rect rx="4" ry="4" x="350" y="450" width="30" height="30" class="combo"/>
-<a href="#l_fn">
-<text x="365" y="465" class="combo tap layer-activator">l_fn</text>
-</a></g>
+<text x="365" y="465" class="combo tap">
+<tspan x="365" dy="-0.5em">Fun/</tspan><tspan x="365" dy="1.0em">Mouse</tspan>
+</text>
+</g>
 <g class="combo combopos-2">
 <path d="M636,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-20" class="combo"/>
 <path d="M636,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-65" class="combo"/>
@@ -1677,8 +1683,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 3165)" class="layer-l_nav">
-<text x="0" y="8" class="label" id="l_nav">l_nav</text>
+<g transform="translate(40, 3165)" class="layer-Nav">
+<text x="0" y="8" class="label" id="Nav">Nav</text>
 <g transform="translate(0, 45)">
 <g transform="translate(70, 63) rotate(9.0)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1821,16 +1827,17 @@ rect.held, rect.combo.held {
 <path d="M501,412 l72,0" class="combo"/>
 <path d="M501,412 l-72,0" class="combo"/>
 <rect rx="4" ry="4" x="486" y="397" width="30" height="30" class="combo"/>
-<a href="#l_cfg">
-<text x="501" y="412" class="combo tap layer-activator">l_cfg</text>
+<a href="#Config">
+<text x="501" y="412" class="combo tap layer-activator"><tspan style="font-size: 83%">Config</tspan></text>
 </a></g>
 <g class="combo combopos-1">
 <path d="M365,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-65" class="combo"/>
 <path d="M365,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-20" class="combo"/>
 <rect rx="4" ry="4" x="350" y="450" width="30" height="30" class="combo"/>
-<a href="#l_fn">
-<text x="365" y="465" class="combo tap layer-activator">l_fn</text>
-</a></g>
+<text x="365" y="465" class="combo tap">
+<tspan x="365" dy="-0.5em">Fun/</tspan><tspan x="365" dy="1.0em">Mouse</tspan>
+</text>
+</g>
 <g class="combo combopos-2">
 <path d="M636,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-20" class="combo"/>
 <path d="M636,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-65" class="combo"/>
@@ -1862,8 +1869,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 3690)" class="layer-l_cfg">
-<text x="0" y="8" class="label" id="l_cfg">l_cfg</text>
+<g transform="translate(40, 3690)" class="layer-Config">
+<text x="0" y="8" class="label" id="Config">Config</text>
 <g transform="translate(0, 45)">
 <g transform="translate(70, 63) rotate(9.0)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -2012,16 +2019,17 @@ rect.held, rect.combo.held {
 <path d="M501,412 l72,0" class="combo"/>
 <path d="M501,412 l-72,0" class="combo"/>
 <rect rx="4" ry="4" x="486" y="397" width="30" height="30" class="combo"/>
-<a href="#l_cfg">
-<text x="501" y="412" class="combo tap layer-activator">l_cfg</text>
+<a href="#Config">
+<text x="501" y="412" class="combo tap layer-activator"><tspan style="font-size: 83%">Config</tspan></text>
 </a></g>
 <g class="combo combopos-1">
 <path d="M365,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-65" class="combo"/>
 <path d="M365,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-20" class="combo"/>
 <rect rx="4" ry="4" x="350" y="450" width="30" height="30" class="combo"/>
-<a href="#l_fn">
-<text x="365" y="465" class="combo tap layer-activator">l_fn</text>
-</a></g>
+<text x="365" y="465" class="combo tap">
+<tspan x="365" dy="-0.5em">Fun/</tspan><tspan x="365" dy="1.0em">Mouse</tspan>
+</text>
+</g>
 <g class="combo combopos-2">
 <path d="M636,465 h-31 a6.0,6.0 0 0 1 -6.0,-6.0 v-20" class="combo"/>
 <path d="M636,465 h31 a6.0,6.0 0 0 0 6.0,-6.0 v-65" class="combo"/>
