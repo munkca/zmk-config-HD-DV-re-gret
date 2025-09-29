@@ -107,8 +107,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   l_sym:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&SlApBack'
-  - '&SlAppy'
+  - Win Prev
+  - Win Next
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '|'
@@ -120,7 +120,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: Alt+5, s: Alt+%}
+  - ∞
   - {t: /, s: '?'}
   - {t: '~', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '%', h: '$$mdi:apple-keyboard-shift$$'}
@@ -203,9 +203,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: ., s: '>'}
-  - {t: AltGr+Sft+8, s: AltGr+Sft+*}
-  - AltGr+P
-  - {t: AltGr+Sft+9, s: AltGr+Sft+(}
+  - °
+  - π
+  - ·
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -298,18 +298,22 @@ combos:
   o: 0.15
 - p: [11, 12, 13]
   k: {t: HD-Vf, h: toggle}
+  draw_separate: true
 - p: [16, 17, 18]
   k: {t: DV, h: toggle}
+  draw_separate: true
 - p: [32, 31]
   k: l_cfg
 - p: [30, 31]
   k: l_fn
+  a: bottom
+  o: 0.15
 - p: [32, 33]
-  k: {t: Num Word, h: (3)}
+  k: Num Word
   a: bottom
   o: 0.15
 - p: [3, 4]
-  k: '&SlAppy'
+  k: Win Next
   a: top
 - p: [28, 29]
   k: $$mdi:alpha-w-box$$
@@ -331,6 +335,8 @@ combos:
   o: 0.15
 - p: [0, 1, 2]
   k: $$mdi:keyboard-tab-reverse$$
+  a: top
+  o: 0.15
 - p: [13, 14]
   k: $$mdi:keyboard-space$$
   draw_separate: true

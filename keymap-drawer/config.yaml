@@ -47,14 +47,13 @@ parse_config:
       shifted: $$mdi:arrow-down$$
       type:    sym_by_sym  
     
-    '&swapm': Win Next Mac
-    '&swapm2': Win Prev Mac
-    '&swapl': Win Next
-    '&swapl2': Win Prev
-    
+
+  
+    '&SlAppy': Win Next
+    '&SlApBack': Win Prev
     '&num_word':
       tap: Num Word
-      hold: '(3)'
+
     
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
@@ -165,11 +164,14 @@ parse_config:
     Q: ''
     LA(COMMA): "≤"
     LA(DOT): "≥"
-    LG(LS(4)): Print Sel
+    LG(LS(N4)): Print Sel
     LA(X): "≈"
     LA(P): "π"
     LA(LS(8)): "°"
     LA(LS(9)): "·"
+    RA(P): "π"
+    RA(RS(N8)): "°"
+    RA(RS(N9)): "·"
     S_COPY: COPY
     RG(C): COPY
     S_PSTM: Paste Match
@@ -182,7 +184,7 @@ parse_config:
     RG(F): FIND
     LA(SEMI): '...'
   
-    LA(5): "∞"
+    LA(N5): "∞"
     # Symbols
     EXCLAMATION: "!"
     EXCL: "!"
@@ -402,6 +404,7 @@ parse_config:
 
   zmk_combos:
     combo_tab:    {align: top, o: 0.15}
+    combo_stab:    {align: top, o: 0.15}
     combo_del:    {align: top, o: 0.15}
     combo_t_Coln: {align: top, o: 0.5}
     combo_appswitch:    {align: top}
@@ -409,6 +412,8 @@ parse_config:
     combo_t_Q:    {align: top, o: 0.5}
     combo_t_Z:    {align: top, o: 0.15}
     combo_t_V:    {align: bottom, o: 0.15}
+    combo_HD:   {draw_separate: true}
+    combo_dv:   {draw_separate: true}
     combo_docaps: {draw_separate: true}
     combo_capslk:   {draw_separate: true}
     combo_Gent:   {draw_separate: true}
@@ -417,6 +422,7 @@ parse_config:
     combo_esc:   {draw_separate: true}
     combo_sall:   {draw_separate: true}
     combo_numpad:    {align: bottom, o: 0.15}
+    combo_fun:    {align: bottom, o: 0.15}
     combo_sch:  {draw_separate: true}
     combo_tch:  {draw_separate: true}
     combo_ch:   {draw_separate: true}
