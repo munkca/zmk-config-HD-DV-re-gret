@@ -685,4 +685,3 @@ draw_config:
     .ghost {
       opacity: 0.4;
     }
-    
