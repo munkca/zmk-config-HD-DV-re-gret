@@ -6,7 +6,7 @@ layers:
   - M
   - G
   - X
-  - {t: '&ak_HASH', s: $}
+  - {t: '#', s: $}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - {t: /, s: '*'}
@@ -68,8 +68,8 @@ layers:
   - Z
   - {t: '$$mdi:backspace$$', h: l_sym, s: '$$mdi:backspace-reverse-outline$$'}
   - l_nav
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', h: l_num}
   l_akDOT:
   - T
   - L
@@ -94,7 +94,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&b_wd'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -171,10 +171,10 @@ layers:
   - '&mkp MCLK'
   - '&mkp RCLK'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace$$', type: held}
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - trans
+  - {t: '$$mdi:transfer$$', type: trans}
   l_num:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '7', s: '&'}
