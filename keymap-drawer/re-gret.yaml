@@ -107,8 +107,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   l_sym:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Win Prev
-  - Win Next
+  - '&SlApBack'
+  - '&SlAppy'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '|'
@@ -120,7 +120,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - ∞
+  - {t: Alt+5, s: Alt+%}
   - {t: /, s: '?'}
   - {t: '~', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '%', h: '$$mdi:apple-keyboard-shift$$'}
@@ -129,7 +129,7 @@ layers:
   - {t: '''', s: '"'}
   - '"'
   - PSCRN
-  - Print Sel
+  - {t: Gui+Sft+4, s: Gui+Sft+$}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '`', s: '~'}
@@ -146,20 +146,20 @@ layers:
   - F11
   - F12
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc SCRL_UP'
-  - '&msc SCRL_LEFT'
-  - '&mmv MOVE_UP'
-  - '&msc SCRL_RIGHT'
+  - $$mdi:pan-up$$
+  - $$mdi:pan-left$$
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-up$$', type: sym_by_sym}
+  - $$mdi:pan-right$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: F5, h: '$$mdi:apple-keyboard-command$$'}
   - {t: F6, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F7, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F8, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc SCRL_DOWN'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - $$mdi:pan-down$$
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-down$$', type: sym_by_sym}
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-right$$', type: sym_by_sym}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
   - F2
@@ -167,9 +167,9 @@ layers:
   - F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
+  - $$mdi:cursor-default-click$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:cursor-default-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {type: held}
@@ -203,9 +203,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: ., s: '>'}
-  - °
-  - π
-  - ·
+  - {t: AltGr+Sft+8, s: AltGr+Sft+*}
+  - AltGr+P
+  - {t: AltGr+Sft+9, s: AltGr+Sft+(}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -218,7 +218,7 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - $$mdi:keyboard-esc$$
   - HOME
-  - $$mdi:arrow-up-bold$$
+  - UP
   - $$mdi:transfer-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
@@ -231,7 +231,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - Alt+$$mdi:arrow-right-bold$$
-  - UNDO
+  - Gui+Z
   - CUT
   - COPY
   - Paste Match
@@ -305,11 +305,11 @@ combos:
 - p: [30, 31]
   k: l_fn
 - p: [32, 33]
-  k: Num Word
+  k: {t: Num Word, h: (3)}
   a: bottom
   o: 0.15
 - p: [3, 4]
-  k: Win Next
+  k: '&SlAppy'
   a: top
 - p: [28, 29]
   k: $$mdi:alpha-w-box$$

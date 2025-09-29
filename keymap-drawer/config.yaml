@@ -5,9 +5,9 @@ parse_config:
     tap: $$mdi:transfer$$
     type: trans
 
-  raw_binding_map:
   
-     '&mkp LCLK': $$mdi:cursor-default-click$$
+  raw_binding_map:
+    '&mkp LCLK': $$mdi:cursor-default-click$$
     '&mkp RCLK': $$mdi:cursor-default-click-outline$$
     '&mkp MCLK': $$mdi:mouse-scroll-wheel$$    
     '&msc SCRL_UP': '$$mdi:pan-up$$'
@@ -46,12 +46,15 @@ parse_config:
       tap:     $$mdi:mouse$$
       shifted: $$mdi:arrow-down$$
       type:    sym_by_sym  
-   
-
-    '&SlAppy': Win Next
-    '&SlApBack': Win Prev
+    
+    '&swapm': Win Next Mac
+    '&swapm2': Win Prev Mac
+    '&swapl': Win Next
+    '&swapl2': Win Prev
+    
     '&num_word':
       tap: Num Word
+      hold: '(3)'
     
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
@@ -160,17 +163,15 @@ parse_config:
   # ZMK
   zmk_keycode_map: 
     Q: ''
-    RA(COMMA): "≤"
-    RA(DOT): "≥"
-    RG(RS(N4)): Print Sel
+    LA(COMMA): "≤"
+    LA(DOT): "≥"
+    LG(LS(4)): Print Sel
     LA(X): "≈"
-    LA(N5): "∞"
-    RA(P): "π"
-    RA(RS(N8)): "°"
-    RA(RS(N9)): "·"
+    LA(P): "π"
+    LA(LS(8)): "°"
+    LA(LS(9)): "·"
     S_COPY: COPY
     RG(C): COPY
-    LG(Z): UNDO
     S_PSTM: Paste Match
     RG(RA(RS(V))): Paste Match
     S_FIND: FIND
@@ -253,6 +254,9 @@ parse_config:
     DOT:
       tap: "."
       shifted: ">"
+    PERIOD:
+      tap: "."
+      shifted: ">"
     COMMA:
       tap: ","
       shifted: "<"
@@ -320,6 +324,11 @@ parse_config:
     LSHIFT: $$mdi:apple-keyboard-shift$$
     LSHFT: $$mdi:apple-keyboard-shift$$
     LGUI: $$mdi:apple-keyboard-command$$
+    LEFT_CONTROL: $$mdi:apple-keyboard-control$$
+    LEFT_ALT: $$mdi:apple-keyboard-option$$
+    LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
+    LEFT_GUI: $$mdi:apple-keyboard-command$$
+    
     RCTRL: $$mdi:apple-keyboard-control$$
     RALT: $$mdi:apple-keyboard-option$$
     RSHIFT: $$mdi:apple-keyboard-shift$$
@@ -328,7 +337,7 @@ parse_config:
     LS(LC(LALT)): $$mdi:triangle$$ # Meh
 
     # Arrows
-    UP: $$mdi:arrow-up-bold$$
+    UP_ARROW: $$mdi:arrow-up-bold$$
     DOWN: $$mdi:arrow-down-bold$$
     LEFT: $$mdi:arrow-left-bold$$
     RIGHT: $$mdi:arrow-right-bold$$
@@ -368,6 +377,7 @@ parse_config:
     C_NEXT: $$mdi:skip-next$$
     C_PREV: $$mdi:skip-previous$$
     C_PP: $$mdi:play-pause$$
+    C_PLAY_PAUSE: $$mdi:play-pause$$
 
     # Bluetooth
     BT_CLR: $$mdi:bluetooth-off$$
@@ -635,10 +645,10 @@ draw_config:
         text-anchor: middle;
         paint-order: stroke;
         fill: var(--color--layer--text);
-        translate: 533px 126px;
+        translate: 473px 126px;
     }
     .layer-Fn text.label {
-        translate: 533px 126px;
+        translate: 473px 126px;
     }
 
 
@@ -670,7 +680,6 @@ draw_config:
         dominant-baseline: ideographic;
         fill: var(--color--key--text--hold);
         translate: 26px 4px;
-        text-anchor: end;
     }
     .hold.glyph {
         translate: 26px 2px;
@@ -724,3 +733,4 @@ draw_config:
     .ghost {
       opacity: 0.4;
     }
+    
