@@ -218,7 +218,7 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - $$mdi:keyboard-esc$$
   - HOME
-  - UP
+  - $$mdi:arrow-up-bold$$
   - $$mdi:transfer-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
@@ -235,7 +235,7 @@ layers:
   - CUT
   - COPY
   - Paste Match
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PASTE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}

@@ -177,6 +177,7 @@ parse_config:
     RG(C): COPY
     S_PSTM: Paste Match
     RG(RA(RS(V))): Paste Match
+    LG(V): PASTE
     LG(Z): UNDO
     S_FIND: FIND
     LG(RETURN): CMD ENTER
@@ -341,7 +342,7 @@ parse_config:
     LS(LC(LALT)): $$mdi:triangle$$ # Meh
 
     # Arrows
-    UP_ARROW: $$mdi:arrow-up-bold$$
+    UP: $$mdi:arrow-up-bold$$
     DOWN: $$mdi:arrow-down-bold$$
     LEFT: $$mdi:arrow-left-bold$$
     RIGHT: $$mdi:arrow-right-bold$$
