@@ -165,6 +165,7 @@ parse_config:
     LA(COMMA): "≤"
     LA(DOT): "≥"
     LG(LS(N4)): Print Sel
+    RG(RS(N4)): Print Sel
     LA(X): "≈"
     LA(P): "π"
     LA(LS(8)): "°"

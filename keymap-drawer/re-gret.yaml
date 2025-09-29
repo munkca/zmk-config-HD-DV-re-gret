@@ -129,7 +129,7 @@ layers:
   - {t: '''', s: '"'}
   - '"'
   - PSCRN
-  - {t: Gui+Sft+4, s: Gui+Sft+$}
+  - Print Sel
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '`', s: '~'}
