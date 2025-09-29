@@ -47,7 +47,7 @@
 
 // dvorak "mode" (no adaptives)
 #define DV_Layer_label "DV"
-#define DV_LT &kp SQT         &kp COMMA       &kp DOT         &ak_P           &ak_Y
+#define DV_LT &kp SQT         &CommaMagic     &kp DOT         &ak_P           &ak_Y
 #define DV_LM &mt_Ad LGUI A   &mt_Od LALT O   &mt_Ed LSHFT E  &mt_Ud LCTRL U  &ak_I
 #define DV_LB &kp SEMI        &ak_Q           &ak_J           &ak_K           &ak_X
 #define DV_LH                                                 &lt_BSPC l_sym BSPC    &mo l_nav
