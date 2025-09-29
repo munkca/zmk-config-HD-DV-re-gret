@@ -649,7 +649,8 @@ rect.held, rect.combo.held {
 <g transform="translate(175, 49) rotate(16.0)" class="key keypos-1">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">,</text>
-<text x="0" y="-34" class="key shifted">&lt;</text>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="-8" y="18" height="16" width="16.0" class="key hold glyph mdi:apple-keyboard-caps"/>
+<text x="0" y="-34" class="key shifted">;</text>
 </g>
 <g transform="translate(271, 55) rotate(20.0)" class="key keypos-2">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -739,6 +740,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(134, 203) rotate(16.0)" class="key keypos-21">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">Q</text>
 </g>
 <g transform="translate(219, 205) rotate(20.0)" class="key keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
