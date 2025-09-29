@@ -50,7 +50,7 @@
 #define DV_LT &kp SQT         &kp COMMA       &kp DOT         &ak_P           &ak_Y
 #define DV_LM &mt_Ad LGUI A   &mt_Od LALT O   &mt_Ed LSHFT E  &mt_Ud LCTRL U  &ak_I
 #define DV_LB &kp SEMI        &ak_Q           &ak_J           &ak_K           &ak_X
-#define DV_LH                                                 &lt_BSPC l_sym BSP    &mo l_nav
+#define DV_LH                                                 &lt_BSPC l_sym BSPC    &mo l_nav
 
 #define DV_RT &ak_F           &ak_G           &ak_C           &ak_R           &ak_L
 #define DV_RM &ak_D           &mt_Hd RCTRL H  &mt_Td RSHFT T  &mt_Nd RALT N   &mt_Sd RGUI S
