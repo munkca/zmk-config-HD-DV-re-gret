@@ -46,7 +46,7 @@
 #define l_fun_LB &kp F1             &kp F2              &kp F3              &kp F4              &none
 #define l_fun_RB &none              &mkp LCLK           &mkp MCLK           &mkp RCLK           &none
 
-#define l_fun_LH &kp BSPC           &kp DEL
+#define l_fun_LH &trans             &trans         
 #define l_fun_RH &trans             &trans
 
 
