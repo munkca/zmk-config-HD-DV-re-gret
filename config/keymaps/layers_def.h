@@ -76,7 +76,7 @@
 //╭─────────────────────────────────────────────╮                ╭────────────────────────────────────────────╮
 //| undol  |   cutl  | copyl | pstel |  SH-TAB  |                |   ESC   |  HOME  |   UP   |  PG_UP |       |
 //|  gui   |   alt   |  shft |  ctrl |    TAB   |                |  Lword  |  LEFT  |  DOWN  |   RGT  | Rword |
-//|  undo  |   cut   |  copy |  pste |          |                |         |   END  |        |  PG_DN |       |
+//|  undo  |   cut   |  copy |pst-mat|   pste   |                |         |   END  |        |  PG_DN |       |
 //╰──────────────────────────╮       |          |                |         |        ╭─────────────────────────╯
 //                           ╰──────────────────╯                ╰──────────────────╯
 #define l_nav_label "l_nav"
@@ -87,7 +87,7 @@
 #define l_nav_LM &kp LGUI           &kp LALT            &kp LSHFT           &kp LCTRL           &kp TAB
 #define l_nav_RM &kp S_WRDL         &kp LEFT            &kp DOWN            &kp RIGHT           &kp S_WRDR
 
-#define l_nav_LB &kp LG(Z)          &kp CUT             &kp S_COPY          &kp S_PSTM          &none 
+#define l_nav_LB &kp LG(Z)          &kp CUT             &kp S_COPY          &kp S_PSTM          &kp LG(V)
 #define l_nav_RB &none              &kp END             &none               &kp PG_DN           &none
 
 #define l_nav_LH &trans        &trans
