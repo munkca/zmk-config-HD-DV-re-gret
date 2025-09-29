@@ -1762,7 +1762,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(46, 221) rotate(9.0)" class="key keypos-20">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">Gui+Z</text>
+<text x="0" y="0" class="key tap">UNDO</text>
 </g>
 <g transform="translate(134, 203) rotate(16.0)" class="key keypos-21">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>

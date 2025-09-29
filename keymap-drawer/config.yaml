@@ -177,6 +177,7 @@ parse_config:
     RG(C): COPY
     S_PSTM: Paste Match
     RG(RA(RS(V))): Paste Match
+    LG(Z): UNDO
     S_FIND: FIND
     LG(RETURN): CMD ENTER
     LA(PLUS): "±"
