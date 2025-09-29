@@ -331,8 +331,6 @@ combos:
   draw_separate: true
 - p: [0, 1]
   k: $$mdi:keyboard-tab$$
-  a: top
-  o: 0.15
 - p: [0, 1, 2]
   k: $$mdi:keyboard-tab-reverse$$
   a: top
