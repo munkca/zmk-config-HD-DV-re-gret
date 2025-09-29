@@ -404,7 +404,7 @@ parse_config:
 
   zmk_combos:
     combo_tab:    {align: top, o: 0.15}
-    combo_stab:    {align: top, o: 0.15}
+    combo_stab:    {align: top, o: 0.3}
     combo_del:    {align: top, o: 0.15}
     combo_t_Coln: {align: top, o: 0.5}
     combo_appswitch:    {align: top}
@@ -651,7 +651,7 @@ draw_config:
         text-anchor: middle;
         paint-order: stroke;
         fill: var(--color--layer--text);
-        translate: 473px 126px;
+        translate: 500px 100px;
     }
     .layer-Fn text.label {
         translate: 473px 126px;
@@ -686,6 +686,7 @@ draw_config:
         dominant-baseline: ideographic;
         fill: var(--color--key--text--hold);
         translate: 26px 4px;
+        text-anchor: end;
     }
     .hold.glyph {
         translate: 26px 2px;

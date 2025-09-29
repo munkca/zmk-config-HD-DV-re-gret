@@ -336,7 +336,7 @@ combos:
 - p: [0, 1, 2]
   k: $$mdi:keyboard-tab-reverse$$
   a: top
-  o: 0.15
+  o: 0.3
 - p: [13, 14]
   k: $$mdi:keyboard-space$$
   draw_separate: true
