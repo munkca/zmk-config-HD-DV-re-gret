@@ -9,8 +9,8 @@ layers:
   - {t: '&ak_HASH', s: $}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '*'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: C, h: '$$mdi:apple-keyboard-option$$'}
   - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
@@ -106,126 +106,126 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   l_sym:
-  - Z
-  - ''
-  - {t: Alt+7, s: Alt+&}
-  - {t: Alt+Sft+5, s: Alt+Sft+%}
-  - {t: Alt+Sft+7, s: Alt+Sft+&}
-  - {t: Alt+4, s: Alt+$}
-  - $
-  - {t: Alt+Sft+2, s: Alt+Sft+@}
-  - {t: Alt+3, s: Alt+#}
-  - Alt+Y
-  - ∞
-  - {t: '[', s: '{'}
-  - (
-  - '{'
-  - {t: Alt+8, s: Alt+*}
-  - {t: /, s: '?'}
-  - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
-  - {t: '*', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: +, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
-  - {t: Alt+Sft+8, s: Alt+Sft+*}
-  - {t: ']', s: '}'}
-  - )
-  - '}'
-  - {t: Alt+Sft+9, s: Alt+Sft+(}
-  - ^
-  - '|'
-  - '&'
-  - {t: <, h: '&t_pairLtGt GT'}
-  - '>'
-  - {t: 'Alt+$$mdi:backspace$$', type: held}
-  - Alt+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Alt+1, s: Alt+!}
+  - Win Prev
+  - Win Next
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '|'
+  - {t: \, s: '|'}
+  - {t: <, s: ≤}
+  - {t: '>', s: ≥}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - ∞
+  - {t: /, s: '?'}
+  - {t: '~', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '%', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ^, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '&', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '''', s: '"'}
+  - '"'
+  - PSCRN
+  - Print Sel
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '`', s: '~'}
+  - '@'
+  - '#'
+  - $
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   l_fn:
   - F9
   - F10
   - F11
   - F12
-  - F13
-  - {t: /, s: '?'}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '-', s: _}
-  - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: F5, h: '$$mdi:apple-keyboard-command$$'}
   - {t: F6, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F7, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F8, h: '$$mdi:apple-keyboard-shift$$'}
-  - F14
-  - '*'
-  - {t: '1', h: '$$mdi:apple-keyboard-shift$$', s: '!'}
-  - {t: '2', h: '$$mdi:apple-keyboard-command$$', s: '@'}
-  - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: '#'}
-  - {t: +, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F7, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F8, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
   - F2
   - F3
   - F4
-  - F15
-  - CMMA
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '=', s: +}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '0', s: )}
-  - {t: ., s: '>'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: held}
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - trans
   l_num:
-  - Gui+$$mdi:arrow-up-bold$$
-  - HOME
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:transfer-up$$
-  - Alt+$$mdi:arrow-up-bold$$
-  - KP DIVIDE
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP SUBTRACT
-  - Alt+$$mdi:arrow-left-bold$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - Alt+$$mdi:arrow-right-bold$$
-  - KP MULTIPLY
-  - {t: KP 4, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: KP 5, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: KP 6, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: KP PLUS, h: '$$mdi:apple-keyboard-control$$'}
-  - Gui+$$mdi:arrow-down-bold$$
-  - END
-  - $$mdi:keyboard-space$$
-  - $$mdi:transfer-down$$
-  - Alt+$$mdi:arrow-down-bold$$
-  - KP COMMA
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP EQUAL
-  - {t: '$$mdi:backspace$$', h: l_fn}
-  - {t: KP ENTER, h: l_nav}
-  - KP 0
-  - {t: KP DOT, type: held}
-  l_nav:
-  - ''
-  - Gui+W
-  - {t: Gui+Sft+4, s: Gui+Sft+$}
-  - {t: Gui+Sft+Ctl+4, s: Gui+Sft+Ctl+$}
-  - Paste Match
-  - Gui+$$mdi:arrow-up-bold$$
-  - HOME
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:transfer-up$$
-  - Alt+$$mdi:arrow-up-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - +
+  - '*'
+  - ≈
+  - {t: <, s: ≤}
+  - {t: '>', s: ≥}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '=', h: '$$mdi:apple-keyboard-command$$', s: +}
+  - {t: '4', h: '$$mdi:apple-keyboard-option$$', s: $}
+  - {t: '5', h: '$$mdi:apple-keyboard-shift$$', s: '%'}
+  - {t: '6', h: '$$mdi:apple-keyboard-control$$', s: ^}
+  - {t: '-', s: _}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
+  - {t: '0', s: )}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ., s: '>'}
+  - °
+  - π
+  - ·
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  l_nav:
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - $$mdi:keyboard-tab-reverse$$
+  - $$mdi:keyboard-esc$$
+  - HOME
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:transfer-up$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
-  - FIND
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-tab$$
   - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -235,51 +235,51 @@ layers:
   - CUT
   - COPY
   - Paste Match
-  - Gui+G
-  - Gui+$$mdi:arrow-down-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - END
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:transfer-down$$
-  - Alt+$$mdi:arrow-down-bold$$
-  - Win Prev
-  - {t: Win Next, type: held}
-  - {t: 'Gui+[', s: 'Gui+{'}
-  - {t: 'Gui+]', s: 'Gui+}', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   l_cfg:
-  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
-  - $$mdi:bluetooth-off$$
-  - {t: Gui+0, s: Gui+)}
+  - {t: '$$mdi:backup-restore$$', h: '$$mdi:progress-download$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
-  - Gui+Alt+ESCAPE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:skip-next$$
-  - $$mdi:play-pause$$
-  - $$mdi:volume-high$$
+  - OUT USB
   - $$mdi:brightness-5$$
-  - {t: Gui+-, s: Gui+_}
   - $$mdi:volume-high$$
-  - $$mdi:volume-off$$
   - $$mdi:skip-next$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backup-restore$$', h: '$$mdi:progress-download$$'}
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-off$$
-  - $$mdi:volume-low$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - OUT BLE
   - $$mdi:brightness-7$$
-  - {t: Gui+=, s: Gui++}
   - $$mdi:volume-low$$
   - $$mdi:play-pause$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-off$$
   - $$mdi:skip-previous$$
-  - {t: '$$mdi:backup-restore$$', h: '$$mdi:progress-download$$'}
-  - {t: Gui+-, s: Gui+_}
-  - {t: Gui+=, s: Gui++, type: held}
-  - {t: Gui+=, s: Gui++, type: held}
-  - {t: Gui+-, s: Gui+_}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 3]
   k: {t: QU, s: Q}
@@ -296,9 +296,15 @@ combos:
   l: [HD-Vf]
   a: bottom
   o: 0.15
+- p: [11, 12, 13]
+  k: {t: HD-Vf, h: toggle}
+- p: [16, 17, 18]
+  k: {t: DV, h: toggle}
 - p: [32, 31]
   k: l_cfg
-- p: [31, 30]
+- p: [30, 31]
+  k: l_fn
+- p: [32, 33]
   k: Num Word
   a: bottom
   o: 0.15
@@ -307,11 +313,11 @@ combos:
   a: top
 - p: [28, 29]
   k: $$mdi:alpha-w-box$$
-  l: [HD-Vf]
+  l: [HD-Vf, DV]
   draw_separate: true
 - p: [27, 28, 29]
   k: $$mdi:apple-keyboard-caps$$
-  l: [HD-Vf]
+  l: [HD-Vf, DV]
   draw_separate: true
 - p: [22, 23, 24]
   k: CMD ENTER
