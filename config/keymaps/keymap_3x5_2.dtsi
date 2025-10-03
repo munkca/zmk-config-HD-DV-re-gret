@@ -36,6 +36,7 @@
                                 DV_LH               DV_RH
                 >;
             };
+/*  Removed
             l_akDOT {
                 label = l_akDOT_label;
                 display-name = "Adapt";
@@ -46,6 +47,7 @@
                                 DOT_LH              DOT_RH
                 >;
             };
+*/
 
             l_sym {
             label = l_sym_label;
