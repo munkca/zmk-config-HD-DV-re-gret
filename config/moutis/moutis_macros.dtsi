@@ -259,7 +259,7 @@
                 , <&macro_tap &kp LEFT>
                 ;
         )
-
+/*
     ZMK_MACRO(sl_dot,
         bindings = <&macro_tap &kp DOT>
                 , <&sl l_akDot>
@@ -281,6 +281,7 @@
                 , <&sl l_akDot>
                 ;
         )
+*/ 
 
     ZMK_MACRO(t_Semi,
         tap-ms = <my_tapping_speed>;
