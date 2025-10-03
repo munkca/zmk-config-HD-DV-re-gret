@@ -57,7 +57,7 @@
 #define DV_RB &ak_B           &ak_M           &ak_W           &ak_V           &ak_Z
 #define DV_RH &kp SPACE       &lt l_num RETURN
 
-
+/*
 #define l_akDOT_label "l_akDOT" // adaptive grabbag sticky layer.
 #define DOT_LT &kp T          &kp L           &kp L           &kp L           _______
 #define DOT_LM _______        _______         _______         _______         _______
@@ -68,5 +68,5 @@
 #define DOT_RM &caps_word     _______         _______         _______         _______
 #define DOT_RB _______        _______         _______         _______         _______
 #define DOT_RH _______        _______
-
+*/
 
