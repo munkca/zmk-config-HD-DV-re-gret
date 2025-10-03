@@ -373,10 +373,13 @@
             mods = <(MOD_LALT|MOD_RALT)>;
         };
 
+
         lkDqt_GT: lkDqt_GT {                // Hold for paired “”
             my_lk_config;
             bindings = <&pairDquotGT>, <&rightDqtGT>;
         };
+
+
         pairDquotGT: pairDquotGT {          // SHIFT = >
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
@@ -422,13 +425,15 @@
             ak_BSPC_E { trigger-keys = <O>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp E>; };
         };
 
-        ak_DOT: ak_DOT {
-            compatible = "zmk,behavior-adaptive-key";
-            #binding-cells = <0>;
-            bindings = <&sl_dot>;
-
-            ak_DOT_EXCL { trigger-keys = <FSLH>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC  &kp EXCL>; };
-        };
+/*
+*        ak_DOT: ak_DOT {
+*            compatible = "zmk,behavior-adaptive-key";
+*            #binding-cells = <0>;
+*            bindings = <&sl_dot>;
+*
+*            ak_DOT_EXCL { trigger-keys = <FSLH>; max-prior-idle-ms = <my_ak_term>; bindings = <&kp BSPC  &kp EXCL>; };
+*        };
+*/
         ak_FSLH: ak_FSLH {
             compatible = "zmk,behavior-adaptive-key";
             #binding-cells = <0>;
