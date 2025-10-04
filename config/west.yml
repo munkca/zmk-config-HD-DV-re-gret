@@ -11,7 +11,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
 #      remote: urob # zmkfirmware or urob
 #      revision: main # main or v0.2+fix-child-nodes
       import: app/west.yml
